@@ -1,0 +1,21 @@
+.Slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.carousel-indicators > button{
+    height: 1vmax;
+    width: 1vmax;
+    background-color: transparent;
+
+    margin: 0 10px ;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+.carousel-indicators {
+    margin-bottom: 1.2vmax;
+}
+.carousel-indicators > button:hover {
+    background-color: transparent;
+    border: 1px solid rgb(176, 176, 176);
+}

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Puritan&display=swap');
+
+.ProductReview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    margin: 1vmax auto;
+    font-family: 'Montserrat', sans-serif;
+}
+

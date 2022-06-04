@@ -1,0 +1,27 @@
+.ExpandNavbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    padding: 2vmax 4vmax;
+    background-color: #fff;
+    transition: all 0.3s;
+}
+.ExpandNavbar div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.ExpandNavbar div img {
+    width: 85%;
+}
+.ExpandNavbar div h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+.ExpandNavbar div p {
+    font-size: 14px;
+    font-weight: 700;
+    color: orangered;
+} 

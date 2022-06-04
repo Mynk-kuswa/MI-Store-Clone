@@ -1,0 +1,14 @@
+.Banner .carousel-caption {
+    position: absolute;
+    top: 30px ;
+}
+.Banner .carousel-caption div{
+    background-color: #fff;
+    width: 12vmax;
+    height: 3px;
+    margin: 35px auto;
+}
+.Banner .carousel-caption h3 {
+    font: 40px;
+}
+

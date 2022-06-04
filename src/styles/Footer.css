@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Puritan&display=swap');
+.Footer {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.PreFooter {
+    /* width: 90wv; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vmax 5vmax;
+    background-color: #fff;
+}
+.PreFooter > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 ;
+    padding: 0;
+}
+.PreFooter > div svg {
+    margin-right: 2vmax;
+    transform: scale(1.1);
+    fill: rgb(163, 156, 156);
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.middleFooter {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vmax;
+    margin: 3.5vmax;
+}
+.middleFooter > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middleFooter p {
+    font-size: 12px;
+    color: rgb(95, 95, 95);
+}
+.middleFooter b {
+    font-size: 17px;
+    color: rgb(85, 84, 84);
+}
+.middleFooter input {
+    outline: none;
+    margin-left: 2vmax;
+    width: 21vmax;
+    height: 3vmax;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 10px 16px;
+}
+
+#sendButton {
+    position: relative;
+    right: 3vmax;
+    fill: rgb(189, 189, 189);
+}
+#social {
+    transform: scale(1.4);
+    margin: 0 2vmax ;
+    fill: rgb(189, 189, 189);
+}
+.lastFooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+    color: rgb(179, 179, 179);
+    background-color: rgb(33, 33, 33);
+}
+.lastFooter {
+padding: 4vmax 0 0 4vmax;
+}
+.lastFooter h3 {
+    font-size: 14px;
+    margin-bottom: 1vmax;
+    font-weight: 700;
+}
+.lastFooter a {
+    
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+}
+.lastFooter a:hover {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+.lastFooter p {
+    margin-top: 0.8vmax;
+}
+.lastFooter > div:last-child p{
+    font-size: 12px;
+}
+.lastFooter button {
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 12px 44px;
+    background-color:  rgb(33, 33, 33);
+    color: #fff;
+    transition: all 0.2s;
+}
+button:hover {
+    color: rgb(33, 33, 33);
+    background-color: #fff;
+}
+.footerLine {
+    background-color: rgb(33, 33, 33);
+    padding-top: 5vmax;
+}
+.footerLine div {
+    height: 1px;
+    width: 90wv;
+    background-color: rgb(161, 160, 160);
+    margin: 0 4.5vmax;
+}
+.footerLine p {
+    color: rgb(179, 179, 179);
+    font-size: 13px;
+    padding: 1.5vmax 4.5vmax;
+}

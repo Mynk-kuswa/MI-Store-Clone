@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Puritan&display=swap');
+.preNav{
+    background-color: rgb(29, 28, 28);
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    color: #fff;
+}
+.preNav > div{
+    padding: 0.5vmax 4vmax;
+    display: flex;
+    align-items: center;
+}
+.preNav > div > span {
+    color: rgba(182, 177, 177,0.64);
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+.preNav > div > a {
+    color: rgb(161, 161, 161);
+    font-size: 0.9rem;
+    font-family: 'Puritan', sans-serif;
+    font-weight: 300;
+    margin: 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.preNav > div > a:hover {
+    color: #fff;
+}
+.preNav > div svg {
+    fill: rgb(161, 161, 161);
+}
+.preNav > div svg:hover {
+    fill: #fff;
+}
